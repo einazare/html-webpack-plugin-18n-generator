@@ -1,2 +1,15 @@
-# html-webpack-plugin-18n-generator
-Trying to generate multi language single page application using Webpack and Html Webpack Plugin.
+# HTML Webpack Plugin i18n Generator
+
+## Building
+
+Bundling the files into a runnable app:
+
+```bash
+npm run build
+```
+
+Running the app in DEV mode:
+
+```bash
+npm run start
+```
