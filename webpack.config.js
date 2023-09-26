@@ -17,7 +17,7 @@ module.exports = Object.keys(languages).map(language => {
       rules: [
         {
           test: /\.html$/,
-          loader: "html-loader"
+          use: ["html-loader"]
         },
         {
           test: /\.css$/i,
