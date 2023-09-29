@@ -4,7 +4,8 @@
   "description": "Trying to generate multi language single page application using Webpack and Html Webpack Plugin.",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --hot --port 3004",
+    "start": "webpack serve --mode development",
+    "start_": "webpack-dev-server --mode development --open --hot --port 3004",
     "build": "rm -rf ./dist && webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,14 +13,12 @@
   "license": "ISC",
   "dependencies": {
     "copy-webpack-plugin": "11.0.0",
-    "html-webpack-plugin": "5.5.0",
+    "html-bundler-webpack-plugin": "2.14.2",
     "webpack": "5.88.2",
-    "webpack-cli": "4.9.2",
-    "webpack-dev-server": "4.8.1"
+    "webpack-cli": "5.1.4",
+    "webpack-dev-server": "4.15.1"
   },
   "devDependencies": {
-    "css-loader": "6.7.1",
-    "html-loader": "4.2.0",
-    "style-loader": "3.3.1"
+    "css-loader": "6.7.1"
   }
 }
